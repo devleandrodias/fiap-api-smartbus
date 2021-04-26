@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{BB75DB9A-B071-4704-B6C8-937B8BF925CB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/CompanyController.cs">
+    <Files>
+      <File FileName="Controllers/CompanyController.cs" Line="44" Column="6" />
+      <File FileName="Controllers/UserController.cs" Line="10" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SmartBusApi" expanded="True">
+            <Node name="SmartBusApi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CompanyController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SmartBusApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
