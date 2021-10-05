@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leandrodias/Desktop/fiap/2-ano-ads/smart-bus/fiap-api-smartbus/SmartBusApi/SmartBusApi.csproj": {}
+    "C:\\Users\\MiningRig\\Desktop\\Study\\Fiap\\fiap-api-smartbus\\SmartBusApi\\SmartBusApi.csproj": {}
   },
   "projects": {
-    "/Users/leandrodias/Desktop/fiap/2-ano-ads/smart-bus/fiap-api-smartbus/SmartBusApi/SmartBusApi.csproj": {
+    "C:\\Users\\MiningRig\\Desktop\\Study\\Fiap\\fiap-api-smartbus\\SmartBusApi\\SmartBusApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leandrodias/Desktop/fiap/2-ano-ads/smart-bus/fiap-api-smartbus/SmartBusApi/SmartBusApi.csproj",
+        "projectUniqueName": "C:\\Users\\MiningRig\\Desktop\\Study\\Fiap\\fiap-api-smartbus\\SmartBusApi\\SmartBusApi.csproj",
         "projectName": "SmartBusApi",
-        "projectPath": "/Users/leandrodias/Desktop/fiap/2-ano-ads/smart-bus/fiap-api-smartbus/SmartBusApi/SmartBusApi.csproj",
-        "packagesPath": "/Users/leandrodias/.nuget/packages/",
-        "outputPath": "/Users/leandrodias/Desktop/fiap/2-ano-ads/smart-bus/fiap-api-smartbus/SmartBusApi/obj/",
+        "projectPath": "C:\\Users\\MiningRig\\Desktop\\Study\\Fiap\\fiap-api-smartbus\\SmartBusApi\\SmartBusApi.csproj",
+        "packagesPath": "C:\\Users\\MiningRig\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MiningRig\\Desktop\\Study\\Fiap\\fiap-api-smartbus\\SmartBusApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/leandrodias/.config/NuGet/NuGet.Config"
+          "C:\\Users\\MiningRig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +48,10 @@
               "target": "Package",
               "version": "[5.0.5, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.13.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -61,6 +67,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.9, 5.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     }

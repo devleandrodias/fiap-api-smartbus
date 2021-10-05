@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/leandrodias/.dotnet/store/|arch|/|tfm|",
-      "/Users/leandrodias/.nuget/packages"
+      "C:\\Users\\MiningRig\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MiningRig\\.nuget\\packages"
     ]
   }
 }
