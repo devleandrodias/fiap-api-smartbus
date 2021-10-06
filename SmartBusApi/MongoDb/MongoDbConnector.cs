@@ -5,7 +5,7 @@ namespace SmartBusApi.MongoDb
 {
     public class MongoDbConnector
     {
-        public const string STRING_CONNECTION = "mongodb://balta:e296cd9f@localhost:27017/admin";
+        public const string STRING_CONNECTION = "mongodb+srv://smart_bus_group:smartBus2021@cluster0.78woq.azure.mongodb.net/test";
         public const string DATABASE = "smart_bus";
 
         public const string COLLECTION_DRIVER = "drivers";
