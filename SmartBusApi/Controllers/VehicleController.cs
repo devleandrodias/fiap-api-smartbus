@@ -6,32 +6,32 @@ using System.Threading.Tasks;
 
 namespace SmartBusApi.Controllers
 {
-    [ApiController, Route("v1/travel")]
-    public class TravelController : Controller
+    [ApiController, Route("v1/vehicle")]
+    public class VehicleController : Controller
     {
-        private readonly TravelRepository _repository;
+        private readonly VehicleRepository _repository;
 
-        public TravelController()
+        public VehicleController()
         {
             _repository = new();
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Travel>>> Get()
+        public async Task<List<Vehicle>> Get()
         {
             return await _repository.Get();
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Travel>> GetById([FromRoute()] string id)
+        public async Task<Vehicle> GetById([FromRoute] string id)
         {
             return await _repository.GetById(id);
         }
 
         [HttpPost]
-        public async Task Create([FromBody] Travel travel)
+        public async Task Create([FromBody] Vehicle vehicle)
         {
-            await _repository.Create(travel);
+            await _repository.Create(vehicle);
         }
 
         [HttpPut("{id}")]
